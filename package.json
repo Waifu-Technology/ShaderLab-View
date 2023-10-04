@@ -1,0 +1,22 @@
+{
+    "name": "shaderlab-view",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "develop": "vite",
+        "develop:ui": "vite --mode ui",
+        "build": "vite build",
+        "build:ui": "vite build --mode ui",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@tauri-apps/api": "latest"
+    },
+    "devDependencies": {
+        "@tauri-apps/cli": "latest",
+        "@types/node": "latest",
+        "vite": "latest",
+        "typescript": "latest"
+    }
+}
